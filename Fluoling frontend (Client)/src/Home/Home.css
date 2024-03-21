@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap");
+
+* {
+  font-family: "Nova Mono", monospace; /* Corrected font-family declaration */
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto; /* Center align the logo horizontally */
+  display: block; /* Ensure the logo is displayed as a block element */
+  text-align: center; /* Center align the logo within its container */
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.login-button {
+  margin-right: 10px;
+  padding: 20px 30px;
+  background-color: #ffffff; /* Default background color */
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #333; /* Default text color */
+  font-size: 20px;
+}
+
+.login-button:hover {
+  background-color: hotpink;
+  border: 1px solid black;
+  color: white;
+}
+
+.login-button:selected {
+  background-color: hotpink; /* Hot pink background color */
+  color: white;
+}
+
+:root {
+  --background-color: pink;
+}
+
+/* Common styles for both light and dark mode */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+/* Dark mode styles */
+.dark {
+  background-color: #333333; /* Dark grey background color */
+  color: hotpink; /* Pink text color */
+}
+
+.dark .logo {
+  fill: hotpink; /* Change the fill color to hot pink */
+}
+
+.dark .g-button {
+  margin-right: 10px;
+  padding: 20px 30px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  color: hotpink;
+  font-size: 20px;
+}
+
+.dark .g-button:hover {
+  background-color: hotpink;
+  border: 1px solid white;
+  color: white;
+}
+
+.dark .g-button:selected {
+  background-color: hotpink; /* Hot pink background color */
+  color: white;
+}
+
+/* Light mode styles */
+.g-button {
+  margin-right: 10px;
+  padding: 20px 30px;
+  background-color: #ffffff; /* Default background color */
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #333; /* Default text color */
+  font-size: 20px;
+}
+
+.g-button:hover {
+  background-color: hotpink;
+  border: 1px solid black;
+  color: white;
+}
+
+.g-button:selected {
+  background-color: hotpink; /* Hot pink background color */
+  color: white;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}

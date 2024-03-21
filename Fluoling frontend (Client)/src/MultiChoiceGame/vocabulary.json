@@ -1,0 +1,95 @@
+[   {
+        "english_search_term": "house",
+        "incorrect_answers": {
+          "french": ["Answer1", "Answer2", "Answer4"],
+          "czech": ["Answer1", "Answer3", "Answer4"],
+          "turkish": ["Answer1", "Answer2", "Answer4"]
+        },
+        "correct_answer": {
+          "french": "Maison",
+          "czech": "Dům",
+          "turkish": "Ev"
+        }
+      },
+      {
+        "english_search_term": "beach",
+        "incorrect_answers": {
+          "french": ["Answer1", "Answer3", "Answer4"],
+          "czech": ["Answer2", "Answer3", "Answer4"],
+          "turkish": ["Answer1", "Answer3", "Answer4"]
+        },
+        "correct_answer": {
+          "french": "Plage",
+          "czech": "Pláž",
+          "turkish": "Plaj"
+        }
+      },
+      {
+        "english_search_term": "apple",
+        "incorrect_answers": {
+          "french": ["Answer1", "Answer3", "Answer4"],
+          "czech": ["Answer2", "Answer3", "Answer4"],
+          "turkish": ["Answer1", "Answer3", "Answer4"]
+        },
+        "correct_answer": {
+          "french": "Pomme",
+          "czech": "Jablko",
+          "turkish": "Elma"
+        }
+      },
+      {
+        "english_search_term": "Postcard",
+        "incorrect_answers": {
+          "french": ["Answer1", "Answer3", "Answer4"],
+          "czech": ["Answer2", "Answer3", "Answer4"],
+          "turkish": ["Answer1", "Answer3", "Answer4"]
+        },
+        "correct_answer": {
+          "french": "Carte postale",
+          "czech": "Pohled",
+          "turkish": "Kartpostal"
+        }
+      },
+      {
+        "english_search_term": "Box",
+        "incorrect_answers": {
+          "french": ["Answer1", "Answer3", "Answer4"],
+          "czech": ["Answer2", "Answer3", "Answer4"],
+          "turkish": ["Answer1", "Answer3", "Answer4"]
+        },
+        "correct_answer": {
+          "french": "Boîte",
+          "czech": "Krabice",
+          "turkish": "Kutu"
+        }
+      },
+      {
+        "english_search_term": "Receipt",
+        "incorrect_answers": {
+          "french": ["Answer1", "Answer3", "Answer4"],
+          "czech": ["Answer2", "Answer3", "Answer4"],
+          "turkish": ["Answer1", "Answer3", "Answer4"]
+        },
+        "correct_answer": {
+          "french": "Reçu",
+          "czech": "Doklad",
+          "turkish": "Fiş"
+        }
+      },
+      {
+        "english_search_term": "Computer",
+        "incorrect_answers": {
+          "french": ["Answer1", "Answer3", "Answer4"],
+          "czech": ["Answer2", "Answer3", "Answer4"],
+          "turkish": ["Answer1", "Answer3", "Answer4"]
+        },
+        "correct_answer": {
+          "french": "Ordinateur",
+          "czech": "Počítač",
+          "turkish": "Bilgisayar"
+        }
+      }
+     
+    ]
+  
+  

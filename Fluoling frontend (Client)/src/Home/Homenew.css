@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Rubik+Bubbles&display=swap');
+
+/* .rubik-bubbles-regular {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} */
+  
+/* .darker-grotesque-uniquifier {
+  font-family: "Darker Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight>;
+  font-style: normal;
+} */
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 900 */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+    font-family: "Darker Grotesque", sans-serif;
+}
+
+
+.homeContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    min-width: 300px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.homeLogo {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.homeStartButton {
+    border: none;
+    background-color: white;
+    color: #FF7BAC;
+    font-size: 150%;
+    font-weight: 300;
+    /* Start button to fade in and continue with animated font-weight 300-700 */
+}
+
+.homeStartButton:hover {
+    background-color: #FF7BAC;
+}

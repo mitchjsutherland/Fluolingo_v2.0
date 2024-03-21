@@ -1,0 +1,92 @@
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}
+
+
+.heading {
+    padding: 30px 40px;
+    font-size: 50px;
+  }
+
+.restartButton {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Default background color */
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333; /* Default text color */
+}
+
+.restartButton:hover {
+    background-color: hotpink;
+    border: 1px solid black;
+    color: white;
+}
+
+.exitButton {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Default background color */
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333; /* Default text color */
+}
+
+.exitButton:hover {
+    background-color: hotpink;
+    border: 1px solid black;
+    color: white;
+}
+
+#answerSubmit {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Default background color */
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333; /* Default text color */
+}
+
+#answerSubmit:hover {
+    background-color: hotpink;
+    border: 1px solid black;
+    color: white;
+}
+
+#playerInput {
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.letterTiles {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.letterTile {
+    color: white;
+    background-color: lightpink;
+    display: inline;
+    height: 30px;
+    width: 30px;
+    margin: 0 3px;
+    text-align: center;
+}
+
+.active {
+    color: black;
+}
+
+.inactive {
+    color: lightgrey;
+
+}

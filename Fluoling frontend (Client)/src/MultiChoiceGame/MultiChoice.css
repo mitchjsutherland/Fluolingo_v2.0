@@ -1,0 +1,146 @@
+/* MultiChoice.css */
+
+.nova-mono-regular {
+  font-family: "Nova Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.language-selector {
+    margin-bottom: 20px;
+  }
+
+  :root {
+    --background-color: pink;
+  }
+
+  .heading {
+    padding: 30px 40px;
+    font-size: 50px;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color)!important;
+    font-family: 'Nova Mono', monospace!important;
+  }
+
+button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #FFFFFF; /* Default background color */
+  /* border: 1px solid black; */
+  border-radius: 15px!important;
+  cursor: pointer;
+  color: #333; /* Default text color */
+  font-size: 15px ;
+}
+
+button:hover {
+  background-color: hotpink;
+  /* border: 1px solid black; */
+  color: white;
+}
+
+.answer-button {
+  margin-top: 10px;
+}
+
+.language-button.selected {
+  background-color: hotpink; /* Hot pink background color */
+  color: #444; /* Dark grey text color */
+}
+
+.tagline {
+  margin-bottom: 35px;
+}
+
+.score-container {
+  padding: 5px 10px;
+}
+
+.timer-container {
+  padding: 5px 10px;
+}
+
+.message-container {
+  /* background-color: white; */
+  color: lightcoral;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  animation: popIn 0.5s ease-out;
+}
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  .language-selector {
+
+    margin-bottom: 20px;
+  }
+
+
+
+.flag-display {
+  font-size: 32px;
+}
+
+.difficulty-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #FFFFFF; /* Default background color */
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  cursor: pointer;
+  color: #333; /* Default text color */
+  font-size: 15px ;
+  position: relative;
+}
+
+.difficulty-button:hover:after {
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Corrected class names for difficulty buttons */
+.difficulty-button.Beginner:hover:after {
+  content: "Score 30 in 90 seconds.";
+}
+
+.difficulty-button.Learner:hover:after {
+  content: "Score 65 in 90 seconds.";
+}
+
+.difficulty-button.expert:hover:after {
+  content: "Score 100 in 90 seconds.";
+}
+
+.hot-pink {
+  color: hotpink;
+}

@@ -1,0 +1,19 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto; /* Center align the logo horizontally */
+  display: block; /* Ensure the logo is displayed as a block element */
+  text-align: center; /* Center align the logo within its container */
+}
+
+body {
+  background-color: #f7c1bb;
+}
+
+.card {
+  background-color: #a4b494;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 20px;
+  /* font-family: "Nunito", sans-serif; */
+}

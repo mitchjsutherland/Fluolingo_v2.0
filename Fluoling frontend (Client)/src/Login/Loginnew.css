@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Rubik+Bubbles&display=swap');
+
+/* body {
+    background-color: red;
+} */
+
+.loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mainForm {
+    background-image: url(../../public/LoginCloud.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginFormSection {
+    margin-bottom: 10%;
+}
+
+.loginFormLabel {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 150%;
+}
+
+.loginFormInput {
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #333333;
+    background: none;
+    border: white;
+    /* outline: none; */
+    text-align: center;
+}
+
+
+.loginFormInput:hover {
+    background: none;
+    border: white;
+    outline: none;
+}
+
+.loginFormInput:focus {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.loginFormButton {
+    background-color: white;
+    border: none;
+    color: #FBB03B;
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+.loginFormButton:hover {
+    background-color: #FBB03B;
+}
+
+.form-control {
+    border: none;
+    outline: none;
+}
+
+.loginCTA, .loginAction {
+    color: #FF7BAC;
+    text-decoration: none;
+}
+
+.loginAction, .loginHome {
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #FF7BAC;
+    text-decoration: none;
+}
+
+.loginAction:hover {
+    color:#FBB03B;
+}
+
+.loginFeedback {
+    color: white;
+    font-size: 70%;
+}
