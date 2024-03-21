@@ -91,3 +91,16 @@
     color: white;
     font-size: 2rem;
 }
+
+.dashboardLogout {
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #FF7BAC;
+    text-decoration: none;
+}
+
+.dashboardLogout:hover {
+    color:#FBB03B;
+}

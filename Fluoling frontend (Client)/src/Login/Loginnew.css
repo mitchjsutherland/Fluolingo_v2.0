@@ -71,7 +71,7 @@
 }
 
 .loginFormButton {
-    background-color: white;
+    background: none;
     border: none;
     color: #FBB03B;
     width: 30%;
@@ -101,7 +101,7 @@
     text-decoration: none;
 }
 
-.loginAction:hover {
+.loginAction:hover, .loginHome:hover {
     color:#FBB03B;
 }
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router';
 import App from "../MultiChoiceGame/MultiChoice";
-import { useParams,useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { Card, Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -90,7 +90,7 @@ function Dashboard() {
                   </div>
                 </div>
 
-                <a href="#" onClick={handleLogout}>Logout</a>
+                <a className="dashboardLogout" href="#" onClick={handleLogout}>Logout</a>
               
 
             </div>
