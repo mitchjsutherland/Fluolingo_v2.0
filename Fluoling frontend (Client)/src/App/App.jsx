@@ -11,6 +11,7 @@ import MultiChoice from '../MultiChoiceGame/MultiChoice';
 import { AuthenticationProvider } from '../Authentication/AuthenticationContext';
 import ImageGuess from '../ImageGuessGame/imageguess';
 import ImageGuess2p from '../ImageGuessGame/imageguess2p';
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,21 +32,26 @@ function App() {
             {darkMode ? 'Light Mode' : 'Dark Mode'}
           </button>
         </div> */}
-        <AuthenticationProvider> 
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          {/* <Route path="/multichoice" element={<MultiChoice />} /> */}
 
-          <Route path="/users/register" element={<Register />} />
-          <Route path="/users/login" element={<Login />} />
-          <Route path="/users/dashboard/:email?" element={<Dashboard />} />
-          <Route path="/image-guess-mode" element={<ImageGuessMode />} /> {/* Route for ImageGuessMode */}
-          <Route path="/image-guess-1p" element={<ImageGuess />} /> {/* Route for ImageGuessMode */}
-          <Route path="/image-guess-2p" element={<ImageGuess2p />} /> {/* Route for ImageGuessMode */}
+          <AuthenticationProvider> 
+          <AnimatePresence mode="wait">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            {/* <Route path="/multichoice" element={<MultiChoice />} /> */}
 
-          <Route path="/multi-choice" element={<MultiChoice />} /> {/* Route for MultiChoice */}
-        </Routes>
-        </AuthenticationProvider>
+            <Route path="/users/register" element={<Register />} />
+            <Route path="/users/login" element={<Login />} />
+            <Route path="/users/dashboard/:email?" element={<Dashboard />} />
+            <Route path="/image-guess-mode" element={<ImageGuessMode />} /> {/* Route for ImageGuessMode */}
+            <Route path="/image-guess-1p" element={<ImageGuess />} /> {/* Route for ImageGuessMode */}
+            <Route path="/image-guess-2p" element={<ImageGuess2p />} /> {/* Route for ImageGuessMode */}
+
+            <Route path="/multi-choice" element={<MultiChoice />} /> {/* Route for MultiChoice */}
+          </Routes>
+          </AnimatePresence>
+          </AuthenticationProvider>
+
+
       </div>
     </Router>
   );

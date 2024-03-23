@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuthentication } from '../Authentication/AuthenticationContext';
 import { Form, Button, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import transition from '../transition.jsx';
 import "./Loginnew.css";
 import Register from '../Register/Register.jsx';
 
@@ -112,7 +112,7 @@ function Login() {
   );
 }
 
-export default Login;
+export default transition(Login);
 
 
 // import React from 'react';

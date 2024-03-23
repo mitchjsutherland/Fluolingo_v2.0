@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap'; 
 import { motion } from "framer-motion"
 import "./Homenew.css";
+import transition from '../transition';
 
 function Home() {
 
@@ -23,4 +24,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default transition(Home);

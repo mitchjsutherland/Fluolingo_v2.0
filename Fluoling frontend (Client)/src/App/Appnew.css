@@ -1,0 +1,19 @@
+.coverIn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FBB03B;
+    transform-origin: bottom;
+}
+
+.coverOut {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF7BAC;
+    transform-origin: top;
+}
